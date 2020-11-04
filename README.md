@@ -37,6 +37,12 @@ source = "grafana_storage"
 destination = "/var/lib/grafana"
 ```
 
+#### Deploy
+
+This is all you need, just run `flyctl deploy` and watch what happens.
+
+Once that's done, run `flyctl open` to launch the Grafana UI in your browser. Grafana defaults to `admin` for both username and password, enter those, change the password, and you're set.
+
 #### Plugins
 
 Grafana has a number of interesting plugins, like the [Worldmap Panel](https://grafana.com/grafana/plugins/grafana-worldmap-panel). The Grafana Docker image will install plugins from an environment variable. You can configure environment variables in `fly.toml` like so:
