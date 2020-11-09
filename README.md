@@ -19,7 +19,6 @@ New app created
   Hostname     = <empty>
 
 Wrote config file fly.toml
-➜  grafana code .
 ```
 
 ```
