@@ -1,7 +1,7 @@
 app = "grafana-example"
 
 [build]
-image = "grafana/grafana"
+image = "grafana/grafana:8.0.0"
 
 [mount]
 source = "grafana_storage"
